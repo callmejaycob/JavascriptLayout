@@ -11,6 +11,7 @@ Three types of layout are supported:
     Divs with the playouteast and playoutwest class must also define the data-playoutwidth attribute. This can be defined in either   percentage of parent width or in pixels.
 
 2)RowLayout - all child divs that include a playout class(playoutborder, playoutcenter, playoutnorth, playoutsouth, playoutwest, playouteast, playoutrows, playoutcolumns, playoutaware) within a div specifying playoutrows will be stacked, where the width of the child will be the width of the parent and the height of the child will be divided among all selected children of the parent.
+
 3)ColumnLayout - same as RowLayout, but child divs are arranged horizontally instead of vertically.
 
 Furthermore, any div specifying a playout class (playoutborder, playoutcenter, playoutnorth, playoutsouth, playoutwest, playouteast, playoutrows, playoutcolumns, playoutaware) will also have a function called playoutOccurred(width, height), if the function is present. 
