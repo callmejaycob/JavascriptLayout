@@ -21,4 +21,4 @@ Furthermore, any div specifying a playout class (playoutborder, playoutcenter, p
 Playout works with div borders, however, it does not attempt to compensate for the size of borders, since the border is drawn outside of the defined div area.
 
 
-Playout supports internal div offsets. the data-offsetleft, data-offsetright, data-offsettop, data-offsetbottom attributes will specify the space between the defined div and its parent along each edge.
+Playout supports internal div offsets. the data-padleft, data-padright, data-padtop, data-padbottom attributes will specify the space between the defined div and its parent along each edge.
