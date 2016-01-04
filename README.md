@@ -4,6 +4,8 @@ Javascript Layout Scripts
 
 The Playout (P Layout) framework is a simple system for defining single-screen web pages where all divs remain on screen as the window viewport is resized.
 
+Requires JQuery
+
 Three types of layout are supported:
 
 1)BorderLayout - classic layout inspired by Java Swing's BorderLayout. Divs are arranged by specifying the classes playoutnorth,     playoutsouth, playouteast, playoutwest, and playoutcenter
