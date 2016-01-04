@@ -15,6 +15,8 @@ Three types of layout are supported:
 3)ColumnLayout - same as RowLayout, but child divs are arranged horizontally instead of vertically.
 
 Furthermore, any div specifying a playout class (playoutborder, playoutcenter, playoutnorth, playoutsouth, playoutwest, playouteast, playoutrows, playoutcolumns, playoutaware) will also have a function called playoutOccurred(width, height), if the function is present. 
+
 Playout works with div borders, however, it does not attempt to compensate for the size of borders, since the border is drawn outside of the defined div area.
+
 
 Playout supports internal div offsets. the data-offsetleft, data-offsetright, data-offsettop, data-offsetbottom attributes will specify the space between the defined div and its parent along each edge.
