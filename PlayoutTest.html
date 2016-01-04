@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>PLayout Test</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/playout.js"></script>
+
+</head>
+<body >
+<!-- The single root class will always be full screen in the playout system -->
+<div class="playoutborder">
+	<div class="playoutcenter playoutcolumns">
+		<div class="playoutrows" style="border-style: dotted" data-padleft="20" data-padright="20" data-padtop="20" data-padbottom="20">
+			<div class="playoutaware" style="border-style: dotted"></div>
+			<div class="playoutaware" style="border-style: dotted"></div>
+			<div class="playoutaware" style="border-style: dotted"></div>
+		</div>
+		<div class="playoutaware" style="border-style: dashed"></div>
+		<div class="playoutaware" style="border-style: ridge"></div>
+		<div class="playoutaware" style="border-style: groove"></div>
+	</div>
+	
+	<div class="playoutnorth" data-playoutheight='10%' style="border-style=solid">
+		north panel
+	</div>
+	 
+	<div class="playoutsouth" data-playoutheight="50" style="border-style=solid">
+		south panel
+	</div>
+	
+	<div class="playoutwest" data-playoutwidth="10%" style="border-style=solid">
+		WEST
+	</div>
+	
+	<div class="playouteast" data-playoutwidth="100" style="border-style=solid">
+		EAST
+	</div>
+	
+</div>
+
+</body>
+</html>
