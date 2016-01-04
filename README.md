@@ -1,5 +1,5 @@
-# JavascriptLayout
-Playout
+#Playout
+
 Javascript Layout Scripts
 
 The Playout (P Layout) framework is a simple system for defining single-screen web pages where all divs remain on screen as the window viewport is resized.
